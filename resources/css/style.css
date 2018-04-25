@@ -1,0 +1,16 @@
+body {
+	margin: 0 auto;
+	background-color: black;
+	color: seashell;
+	opacity: 0.9;
+	font-size: 22px;
+	font-family: Helvetica;
+}
+
+header {
+	
+}
+
+header .logo {
+	height: 10px;
+}
