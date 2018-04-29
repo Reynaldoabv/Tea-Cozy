@@ -10,6 +10,7 @@ body {
 header {
 	display: flex;
 	position: fixed;
+	z-index: 2;
 	border-bottom: 1px solid seashell;
 	height: 69px;
 	width: 100%;
@@ -40,11 +41,57 @@ header {
 	padding-top: 69px;
 	height: 700px;
 	width: 1200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
 }
 
 .title-background {
-	z-index: 1;
+	z-index: 1;	
+	background-color: black;
+	width: 100%;
+	text-align: center;
+}
+
+.title-background h2, h4 {
+	margin: 10px 0px 10px 0px;
+}
+
+.section {
+	display: inline-block;
+	width: 1000px;
+}
+
+.title-section {
+	text-align: center;
+}
+
+.section-group {
 	display: flex;
-	align-items: center;
+}
+
+.section-image {
+	height: 200px;
+	width: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.section-image h4 {
+	margin: 10px;
+}
+
+.locations {
+	height: 500px;
+	width: 1200px;
+	opacity: 1;
+	margin: 0 auto;
+	background-image: url("resources/images/img-locations-background.jpg");
+}
+
+.locations h2 {
+	margin: 15px;
+	text-align: center;
 }
